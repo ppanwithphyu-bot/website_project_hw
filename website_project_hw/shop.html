@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - VORTEX</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+</head>
+
+<body>
+    <input type="radio" name="brand-filter" id="all" class="filter-radio" checked>
+    <input type="radio" name="brand-filter" id="kia" class="filter-radio">
+    <input type="radio" name="brand-filter" id="im" class="filter-radio">
+    <input type="radio" name="brand-filter" id="ev" class="filter-radio">
+
+    <input type="radio" name="modal-group" id="modal-car1" class="modal-radio">
+    <input type="radio" name="modal-group" id="modal-car2" class="modal-radio">
+    <input type="radio" name="modal-group" id="modal-car3" class="modal-radio">
+    <input type="radio" name="modal-group" id="modal-car4" class="modal-radio">
+    <input type="radio" name="modal-group" id="modal-car5" class="modal-radio">
+    <input type="radio" name="modal-group" id="modal-car6" class="modal-radio">
+    <input type="radio" name="modal-group" id="modal-car7" class="modal-radio">
+    <input type="radio" name="modal-group" id="modal-car8" class="modal-radio">
+    
+    <input type="radio" name="modal-group" id="modal-close" class="modal-radio" checked>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">VORTEX</a>
+
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="contant.html">Contact</a></li>
+                <li><a href="profile.html"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <div class="filter-container">
+            <label for="all" class="filter-btn">All Brands</label>
+            <label for="kia" class="filter-btn">Kia</label>
+            <label for="im" class="filter-btn">IM</label>
+            <label for="ev" class="filter-btn">EV</label>
+        </div>
+
+        <section id="product">
+            <div class="product_cotainer">
+                
+            
+                <div class="card kia">
+                    <div class="image">
+                        <label for="modal-car1">
+                            <img src="images/slide10.jpg" alt="Kia">
+                        </label>
+                        <span><i class="fa-solid fa-tag"></i> Kia</span>
+                    </div>
+                    <div class="details">
+                        <h2>Sportage</h2>
+                        <p>$38,500</p>
+                    </div>
+                </div>
+
+                <div class="card kia">
+                    <div class="image">
+                        <label for="modal-car2">
+                            <img src="images/slide4.jpg" alt="Kia">
+                        </label>
+                        <span><i class="fa-solid fa-tag"></i> Kia</span>
+                    </div>
+                    <div class="details">
+                        <h2>K-5</h2>
+                        <p>$41,000</p>
+                    </div>
+                </div>
+
+                <div class="card kia">
+                    <div class="image">
+                        <label for="modal-car3">
+                            <img src="images/slide5.jpg" alt="Kia">
+                        </label>
+                        <span><i class="fa-solid fa-tag"></i> kia</span>
+                    </div>
+                    <div class="details">
+                        <h2>Carnival</h2>
+                        <p>$52,000</p>
+                    </div>
+                </div>
+
+                <div class="card kia">
+                    <div class="image">
+                        <label for="modal-car4">
+                            <img src="images/slide2.jpg" alt="Kia">
+                        </label>
+                        <span><i class="fa-solid fa-tag"></i> Kia</span>
+                    </div>
+                    <div class="details">
+                        <h2>Seltos</h2>
+                        <p>$39,000</p>
+                    </div>
+                </div>
+
+                <div class="card im">
+                    <div class="image">
+                        <label for="modal-car5">
+                            <img src="images/slide6.jpg" alt="IM">
+                        </label>
+                        <span><i class="fa-solid fa-tag"></i> IM</span>
+                    </div>
+                    <div class="details">
+                        <h2>IM LS-6</h2>
+                        <p>$68,000</p>
+                    </div>
+                </div>
+
+            
+                <div class="card im">
+                    <div class="image">
+                        <label for="modal-car6">
+                            <img src="images/slide7.jpg" alt="IM">
+                        </label>
+                        <span><i class="fa-solid fa-tag"></i> IM</span>
+                    </div>
+                    <div class="details">
+                        <h2>IM LS-7</h2>
+                        <p>$42,000</p>
+                    </div>
+                </div>
+<div class="card kia ev">
+     <div class="image">
+                        <label for="modal-car6">
+                            <img src="images/slide8.jpg" alt="Kia">
+                        </label>
+                        <span><i class="fa-solid fa-tag"></i> EV</span>
+                    </div>
+                    <div class="details">
+                        <h2>Kia EV-3</h2>
+                        <p>$35,000</p>
+                    </div>
+                </div>
+
+
+            <div class="card kia ev">
+     <div class="image">
+                        <label for="modal-car6">
+                            <img src="images/slide9.jpg" alt="Kia">
+                        </label>
+                        <span><i class="fa-solid fa-tag"></i> EV</span>
+                    </div>
+                    <div class="details">
+                        <h2>Kia EV-5</h2>
+                        <p>$45,000</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+
+   <div class="modal-overlay modal-overlay-1">
+        <div class="modal-content">
+            <label for="modal-close" class="modal-close">&times;</label>
+            <img src="images/slide10.jpg" alt="Sportage" class="modal-img">
+            <div class="modal-details">
+                <h2>Sportage</h2>
+                <p>Dynamic compact SUV featuring tiger-nose grille design, premium dual panoramic displays, and advanced smart driver assistance systems.</p>
+                <div class="modal-specs">
+                    <div><span>Price</span><strong>$38,500</strong></div>
+                    <div><span>Type</span><strong>SUV / Hybrid</strong></div>
+                    <div><span>Year</span><strong>2024</strong></div>
+                    <div><span>Mileage</span><strong>1,200 km</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="modal-overlay modal-overlay-2">
+        <div class="modal-content">
+            <label for="modal-close" class="modal-close">&times;</label>
+            <img src="images/slide4.jpg" alt="K-5" class="modal-img">
+            <div class="modal-details">
+                <h2>K-5</h2>
+                <p>Sleek fastback sports sedan with aggressive LED daytime running lights, turbocharged performance, and luxurious driver-focused cockpit.</p>
+                <div class="modal-specs">
+                    <div><span>Price</span><strong>$41,000</strong></div>
+                    <div><span>Type</span><strong>Sedan</strong></div>
+                    <div><span>Year</span><strong>2024</strong></div>
+                    <div><span>Mileage</span><strong>800 km</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-overlay modal-overlay-3">
+        <div class="modal-content">
+            <label for="modal-close" class="modal-close">&times;</label>
+            <img src="images/slide5.jpg" alt="Carnival" class="modal-img">
+            <div class="modal-details">
+                <h2>Carnival</h2>
+                <p>Grand utility vehicle offering first-class relaxation seats, dual power sunroofs, and immense cargo capacity for family adventures.</p>
+                <div class="modal-specs">
+                    <div><span>Price</span><strong>$52,000</strong></div>
+                    <div><span>Type</span><strong>MPV / Luxury</strong></div>
+                    <div><span>Year</span><strong>2024</strong></div>
+                    <div><span>Mileage</span><strong>500 km</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay modal-overlay-4">
+        <div class="modal-content">
+            <label for="modal-close" class="modal-close">&times;</label>
+            <img src="images/slide2.jpg" alt="Seltos" class="modal-img">
+            <div class="modal-details">
+                <h2>Seltos</h2>
+                <p>Bold subcompact urban SUV built for agile city maneuvering with high ground clearance, modern infotainment, and fuel efficiency.</p>
+                <div class="modal-specs">
+                    <div><span>Price</span><strong>$39,000</strong></div>
+                    <div><span>Type</span><strong>Compact SUV</strong></div>
+                    <div><span>Year</span><strong>2024</strong></div>
+                    <div><span>Mileage</span><strong>1,500 km</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay modal-overlay-5">
+        <div class="modal-content">
+            <label for="modal-close" class="modal-close">&times;</label>
+            <img src="images/slide6.jpg" alt="IM LS-6" class="modal-img">
+            <div class="modal-details">
+                <h2>IM LS-6</h2>
+                <p>Ultra-aerodynamic electric coupe SUV equipped with digital intelligent cockpit, high-performance dual-motor AWD, and rapid charging.</p>
+                <div class="modal-specs">
+                    <div><span>Price</span><strong>$68,000</strong></div>
+                    <div><span>Type</span><strong>Luxury Electric</strong></div>
+                    <div><span>Year</span><strong>2024</strong></div>
+                    <div><span>Range</span><strong>700 km</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay modal-overlay-6">
+        <div class="modal-content">
+            <label for="modal-close" class="modal-close">&times;</label>
+            <img src="images/slide7.jpg" alt="IM LS-7" class="modal-img">
+            <div class="modal-details">
+                <h2>IM LS-7</h2>
+                <p>Flagship luxury mid-size electric SUV featuring panoramic dome glass windshield, zero-gravity executive seats, and AI-driven chassis control.</p>
+                <div class="modal-specs">
+                    <div><span>Price</span><strong>$42,000</strong></div>
+                    <div><span>Type</span><strong>Luxury Electric</strong></div>
+                    <div><span>Year</span><strong>2024</strong></div>
+                    <div><span>Range</span><strong>625 km</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-overlay modal-overlay-7">
+        <div class="modal-content">
+            <label for="modal-close" class="modal-close">&times;</label>
+            <img src="images/slide8.jpg" alt="Kia EV-3" class="modal-img">
+            <div class="modal-details">
+                <h2>Kia EV-3</h2>
+                <p>Compact all-electric SUV designed with sustainable eco-friendly interior materials, futuristic geometric styling, and smart connectivity.</p>
+                <div class="modal-specs">
+                    <div><span>Price</span><strong>$35,000</strong></div>
+                    <div><span>Type</span><strong>Electric (EV)</strong></div>
+                    <div><span>Year</span><strong>2024</strong></div>
+                    <div><span>Range</span><strong>460 km</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-overlay modal-overlay-8">
+        <div class="modal-content">
+            <label for="modal-close" class="modal-close">&times;</label>
+            <img src="images/slide9.jpg" alt="Kia EV-5" class="modal-img">
+            <div class="modal-details">
+                <h2>Kia EV-5</h2>
+                <p>Next-gen family electric SUV built on E-GMP platform featuring versatile modular cabin space and ultra-fast 800V charging capability.</p>
+                <div class="modal-specs">
+                    <div><span>Price</span><strong>$45,000</strong></div>
+                    <div><span>Type</span><strong>Electric (EV)</strong></div>
+                    <div><span>Year</span><strong>2024</strong></div>
+                    <div><span>Range</span><strong>530 km</strong></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 VORTEX Automotive. All right reserve.</p>
+    </footer>
+</body>
+</html>

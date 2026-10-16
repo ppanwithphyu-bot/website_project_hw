@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">VORTEX</a>
+
+      <ul class="navbar">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contant.html">Contact</a></li>
+        <li><a href="profile.html"><i class="fa-solid fa-user"></i></a></li>
+    </nav>
+  </header>
+
+  <main>
+    <section id="slider">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/slide1.jpg" alt="Slider 1"></div>
+          <div class="swiper-slide"><img src="images/slide3.jpg" alt="Slider 2"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <section id="about_us">
+      <div class="about_container">
+        <div class="left" data-aos="fade-right">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
+            alt="About Us">
+        </div>
+        <div class="right">
+          <small data-aos="fade-left" data-aos-delay="200">About VORTEX</small>
+          <h1 data-aos="fade-left" data-aos-delay="400">Drive The Future</h1>
+          <p data-aos="fade-left" data-aos-delay="600">The premier automotive marketplace to buy and sell premium
+            vehicles. Explore our wide selection of Kia, IM, and EV models in one place.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="service_section">
+      <div class="service_container">
+        <h1>Why Choose Us</h1>
+        <p>Special services and features provided by our VORTEX platform.</p>
+
+        <div class="service_card">
+          <div class="card">
+            <i class="fa-solid fa-car"></i>
+            <h1>Verified Cars</h1>
+            <p>High quality inspected brand new and pre-owned cars.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h1>Secure Deal</h1>
+            <p>Trusted and secure transaction & communication system.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-headset"></i>
+            <h1>24/7 Support</h1>
+            <p>Dedicated customer service team ready to assist you anytime.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 VORTEX Automotive. All right reserve.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.mySwiper', {
+      loop: true,
+      autoplay: { delay: 3000, },
+      speed: 2000,
+      effect: "slide",
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      }
+    });
+    AOS.init();
+  </script>
+</body>
+
+</html>
+
+
